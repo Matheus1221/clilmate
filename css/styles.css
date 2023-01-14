@@ -58,3 +58,30 @@ body {
   align-items: center;
   margin-bottom: 0.6rem;
 }
+#eather-data h2 i {
+  margin: 0.6rem;
+}
+#city {
+  padding-right: 10px;
+}
+#country {
+  height: 25px;
+  padding-left: 10px;
+  border-left: 1px solid #fff;
+}
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#details-container #umidity {
+  border-right: 1px solid #fff;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
