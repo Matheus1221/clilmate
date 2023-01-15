@@ -20,11 +20,14 @@ const getWeatherData = async (city) => {
 
   const res = await fetch(apiWeatherURL);
   const data = await res.json();
-  console.log(data);
+
+  return data;
 };
 
-const showWeatherData = (city) => {
-  getWeatherData(city);
+const showWeatherData = async (city) => {
+  const data = await getWeatherData(city);
+
+  cityElement.innerText = data.name;
 };
 
 //events
